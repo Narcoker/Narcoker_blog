@@ -28,10 +28,10 @@ function App() {
 
       <div className='Container-Content'>
         <Routes>
-          <Route exact path="/" element={<Intro></Intro>} />
-          <Route path="/project" element={<Project></Project>} />
-          <Route path="/blog" element={<Blog></Blog>} />
-          <Route path="/login" element={<Login></Login>} />
+          <Route exact path="/" element={<Intro />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/login" element={<Login />} />
           {/* <Route path='/:id'><p>정해진 경로 외의 페이지입니다.</p> </Route> */}
 
         </Routes>
