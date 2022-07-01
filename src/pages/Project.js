@@ -1,9 +1,11 @@
 import React from 'react';
-
+import logo from '../image/logo_black.png'
+import '../css/Project.css'
 function Project(props) {
     return (
-        <div>
-            Project
+        <div className='Project'>
+            <img src={logo} width="200vw" ></img>
+            <div>Project 페이지 입니다.</div>
         </div>
     );
 }

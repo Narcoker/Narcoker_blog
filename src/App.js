@@ -7,6 +7,7 @@ import Intro from './pages/Intro';
 import Project from './pages/Project';
 import Blog from './pages/Blog';
 import Login from './pages/Login';
+import logo from './image/logo_white.png'
 import { useState } from 'react';
 
 
@@ -22,7 +23,9 @@ function App() {
           <div className="ContainerNavbar">
             <Navbar bg="#262626" variant="light">
               <Container fluid>
-                <Navbar.Brand as={NavLink} to="/"><span className="FontNotoSans ColorWhite">Narcoker</span></Navbar.Brand>
+                <Navbar.Brand as={NavLink} to="/"><span className="FontNotoSans ColorWhite">
+                  <img src={logo} width="20px" height="24px" />
+                  &nbsp;Narcoker</span></Navbar.Brand>
                 <Nav className="me-auto">
                   <Nav.Link as={NavLink} to="/"><span className="NavText">Intro</span></Nav.Link>
                   <Nav.Link as={NavLink} to="/project"><span className="NavText">Project</span></Nav.Link>

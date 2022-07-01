@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../css/Intro.css'
 import IntroInit from './IntroInit';
+import logo from '../image/logo_black.png'
 function Intro(props) {
     const [initModalState, setInitModalState] = useState(true);
 
@@ -17,6 +18,7 @@ function Intro(props) {
             }
 
             <div onClick={() => { setInitModalState(true); }}>Intro</div>
+
         </div>
     );
 }
