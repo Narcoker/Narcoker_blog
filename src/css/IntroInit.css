@@ -1,0 +1,89 @@
+.IntroInit {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContainerHello{
+    position: absolute;
+    opacity: 0;
+    animation: fadeinout 1.5s;
+    animation-delay: 0.5s;
+}
+
+.Passion{
+    opacity: 0;
+    animation: fadein 0.7s forwards;
+    animation-delay: 2.2s;
+}
+
+.Patience{
+    opacity: 0;
+    animation: fadein 0.7s forwards;
+    animation-delay: 2.9s;
+}
+
+.Tenacity{
+    opacity: 0;
+    animation: fadein 0.7s forwards;
+    animation-delay: 3.6s;
+}
+
+.ContainerCharms{
+    position: absolute;
+    animation: fadeout 1s forwards;
+    animation-delay: 4.3s;
+}
+
+.ContainerChallenge{
+    position: absolute;
+    opacity: 0;
+    animation: fadeinout 1.5s forwards;
+    animation-delay: 5.3s; 
+}
+
+.ContainerFD{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation: fadein 1.5s forwards;
+    animation-delay: 6.8s; 
+}
+
+.ContainerSkip{
+    position: absolute;
+    margin-top: 200px;
+}
+
+.SkipText{
+    color: #c8c8c8;
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}

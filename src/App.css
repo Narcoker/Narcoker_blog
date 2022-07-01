@@ -3,19 +3,57 @@
 .App {
 }
 
-.Container-Navbar{
+p{
+  margin: 0;  
+}
+
+
+
+.ContainerNavbar{
   background-color: #262626;
   position: fixed;
   width: 100%;
-}
-.Container-Content{
-  padding-top: 60px;
+  height: 55px;
 }
 
-.Font-NotoSans{
- font-family: 'Noto Sans KR', sans-serif;
+.ContainerContent{
+  position: fixed;
+  top: 55px;
 }
 
-.white{
+.ColorWhite{
   color: white;
+}
+
+.NavText{
+ font-family: 'Noto Sans KR', sans-serif;
+ color: white
+}
+
+.NavText:hover{
+  font-size: 18px;
+  transform: translateY(50px);
+  transition: 0.5s;
+}
+
+/*  Common font */
+.BigText{
+   font-family: 'Noto Sans KR', sans-serif;
+    color: black;
+    /* color: white; */
+    font-size: 48px;
+}
+
+.MiddleText{
+   font-family: 'Noto Sans KR', sans-serif;
+    color: black;
+    /* color: white; */
+    font-size: 36px;
+}
+
+.SmallText{
+   font-family: 'Noto Sans KR', sans-serif;
+    color: black;
+    /* color: white; */
+    font-size: 16px;
 }

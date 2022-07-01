@@ -1,45 +1,55 @@
 import './App.css';
-import { Route, Routes, Link } from 'react-router-dom'
+import { Route, Routes, NavLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Intro from './pages/Intro'
+import Intro from './pages/Intro';
 import Project from './pages/Project';
 import Blog from './pages/Blog';
 import Login from './pages/Login';
+import { useState } from 'react';
+
+
 
 function App() {
+  const [navbarState, setNavbarState] = useState(true);
   return (
 
     <div className="App">
-      <div className='Container-Navbar'>
-        <Navbar variant="light">
-          <Container fluid>
-            <Navbar.Brand href="#intro"><span className='Font-NotoSans white'>Narcoker_Frontend Developer</span></Navbar.Brand>
-            <Nav className="me-auto">
-              <Nav.Link as={Link} to="/"><span className='Font-NotoSans white'>Intro</span></Nav.Link>
-              <Nav.Link as={Link} to="/project"><span className='Font-NotoSans white'>Project</span></Nav.Link>
-              <Nav.Link as={Link} to="/blog"><span className='Font-NotoSans white'>Blog</span></Nav.Link>
-              <Nav.Link as={Link} to="/login"><span className='Font-NotoSans white'>Login</span></Nav.Link>
-            </Nav>
-          </Container>
-        </Navbar>
-      </div>
+      {
+        navbarState
+          ?
+          <div className="ContainerNavbar">
+            <Navbar bg="#262626" variant="light">
+              <Container fluid>
+                <Navbar.Brand as={NavLink} to="/"><span className="FontNotoSans ColorWhite">Narcoker</span></Navbar.Brand>
+                <Nav className="me-auto">
+                  <Nav.Link as={NavLink} to="/"><span className="NavText">Intro</span></Nav.Link>
+                  <Nav.Link as={NavLink} to="/project"><span className="NavText">Project</span></Nav.Link>
+                  <Nav.Link as={NavLink} to="/blog"><span className="NavText">Blog</span></Nav.Link>
+                  <Nav.Link as={NavLink} to="/login"><span className="NavText">Login</span></Nav.Link>
+                </Nav>
+              </Container>
+            </Navbar>
+          </div>
+          :
+          null
 
-      <div className='Container-Content'>
+      }
+
+
+      <div className="ContainerContent">
         <Routes>
-          <Route exact path="/" element={<Intro />} />
+          <Route exact path="/" element={<Intro setNavbarState={setNavbarState} />} />
           <Route path="/project" element={<Project />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/login" element={<Login />} />
-          {/* <Route path='/:id'><p>정해진 경로 외의 페이지입니다.</p> </Route> */}
+          <Route path="/:id" element={<p>찾을 수 없는 페이지 입니다.</p>} />
 
         </Routes>
       </div>
 
-      <div className='Container-footer'>
-
-      </div>
+      <div className="Container-footer" />
 
     </div>
   );
