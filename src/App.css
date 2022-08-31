@@ -10,7 +10,7 @@ p{
 
 
 .ContainerNavbar{
-  background-color: #262626;
+  background-color: #1e1e1e;
   position: fixed;
   width: 100%;
   height: 55px;
@@ -33,7 +33,7 @@ p{
 }
 
 .NavText:hover{
-  font-size: 15px;
+  font-size: 18px;
   transform: translateY(50px);
   transition: 0.5s;
 }

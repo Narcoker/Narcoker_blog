@@ -1,14 +1,20 @@
+import { clear } from '@testing-library/user-event/dist/clear';
 import React, { useEffect, useState } from 'react';
 import "../css/IntroInit.css"
 
 function IntroInit(props) {
+    let [sec, setSec] = useState(9);
     useEffect(() => {
-        let timer = setTimeout(() => {
+        let closeTimer = setTimeout(() => {
             props.setInitModalState(false);
         }, 11 * 1000);
 
+        let timer = setInterval(() => { setSec(sec--) }, 1000);
+
         return () => {
-            clearTimeout(timer);
+            clearTimeout(closeTimer);
+            clearInterval(timer);
+            setSec(9);
         }
     }, [])
 
@@ -41,7 +47,7 @@ function IntroInit(props) {
             </div>
 
             <div className="ContainerSkip">
-                <p className='SmallText SkipText' onClick={() => { props.setInitModalState(false) }}>skip</p>
+                <p className='SmallText SkipText' onClick={() => { props.setInitModalState(false) }}>skip({sec})</p>
             </div>
 
 
