@@ -1,4 +1,5 @@
-import { clear } from '@testing-library/user-event/dist/clear';
+// import { clear } from '@testing-library/user-event/dist/clear';
+// eslint-disable-next-line
 import React, { useEffect, useState } from 'react';
 import "../css/IntroInit.css"
 
@@ -40,7 +41,7 @@ function IntroInit(props) {
 
             <div className='ContainerFD'>
                 <p className='BigText'>Frontend Developer&nbsp;</p>
-                <p style={{ marginLeft: "50px" }}>
+                <p>
                     <span className='MiddleText'>김준서&nbsp;</span>
                     <span className='SmallText'>입니다.</span>
                 </p>

@@ -1,14 +1,373 @@
-.Intro{
-    /* display: flex; */
-    height: 100vh;
-    width: 100vw;
-    background-color: white;
+/* 웹 */
 
+@media (min-width:900px) {
+    .Intro{
+        /* display: flex; */
+        height: 100vh;
+        width: 100vw;
+        background-color: white;
+        overflow: scroll;
+    }
+
+    .IntroInit{
+        position: fixed;
+        top: 0px;
+        background-color: white;
+    }
+
+    .Welcome{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px 100px 30px 100px;
+    }
+
+    .Title{
+        display: flex;
+        font-size: 2.5vw;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 500;
+        margin-bottom: 10px;
+        margin-bottom: 30px;
+    }
+
+    .CircleBox{
+        width: 200px;
+        height: 200px;
+        border-radius: 70%;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+
+    .ProfileImg{
+        width: 100%;
+    }
+
+    .WelcomeContentText{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 1vw;
+        font-weight: 400;
+    }
+
+    .IntroButton{
+        font-size: 1vw;
+        color: #c8c8c8;
+        cursor: pointer;
+    }
+
+    .AboutMe{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px 100px 30px 100px;
+    }
+    .AboutMeContent{
+        display: flex;
+        flex-direction: row;
+    }
+    .AboutMeImg{
+        height:350px;
+        margin-right: 30px;
+    }
+    .AboutMeContentText{
+        font-size: 1vw;
+        width: 100%;
+        height: 100%;
+        border: 3px solid #1e1e1e;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .Skills{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px 100px 30px 100px;
+    }
+
+    .SkillsContent{
+
+    }
+
+    .SkillContentLine{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .SkillBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+    }
+
+
+    .SkillImg{
+        width: 200px;
+        margin-bottom: 5px;
+    }
+
+    .Certificate{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px 100px 30px 100px;
+    }
+
+    .CertificateContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .CertificateBox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+        
+    .Certificate_options{
+        border: 5px solid #0e4776;
+    }
+
+    .CertificateImg{
+        width: 100%;
+        height: 100%;
+    }
+
+    .CertificateName{
+        font-size: 12px;
+        color: #c8c8c8;
+    }
+
+
+
+
+
+
+
+
+
+    .Footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 200px;
+        background-color: #1e1e1e;
+        padding-bottom: 25px;
+    }
+
+    .FooterTitle{
+        font-size: 25px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    .FooterIcons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .FooterIcon{
+        margin-right: 10px;
+        width: 3.8vw;
+    }
+    .FooterIcon:hover{
+        width: 4.5vw;
+    }
 }
 
-.IntroInit{
-    position: fixed;
-    top: 0px;
-    background-color: white;
+/* 모바일 */
+
+@media (max-width:900px)  {
+    .Intro{
+        /* display: flex; */
+        height: 100vh;
+        width: 100vw;
+        background-color: white;
+        overflow: scroll;
+    }
+
+    .IntroInit{
+        position: fixed;
+        top: 0px;
+        background-color: white;
+    }
+
+    .Welcome{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px 30px 30px 30px;
+    }
+
+    .Title{
+        display: flex;
+        font-size: 5vw;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 500;
+        margin-bottom: 10px;
+        margin-bottom: 30px;
+    }
+
+    .CircleBox{
+        width: 200px;
+        height: 200px;
+        border-radius: 70%;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+
+    .ProfileImg{
+        width: 100%;
+    }
+
+    .WelcomeContentText{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 2vw;
+        font-weight: 400;
+    }
+
+    .IntroButton{
+        font-size: 2vw;
+        color: #c8c8c8;
+        cursor: pointer;
+    }
+
+    .AboutMe{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px 30px 30px 30px;
+    }
+    .AboutMeContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .AboutMeImg{
+        width: 290px;
+        margin-bottom: 30px;
+    }
+    .AboutMeContentText{
+        font-size: 2vw;
+        height: 100%;
+        width: 100%;        
+        border: 3px solid #1e1e1e;
+        padding: 10px;
+        border-radius: 5px;
+        
+    }
+
+    
+    .Skills{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px 30px 30px 30px;
+    }
+
+
+
+    .SkillsContent{
+
+    }
+
+    .SkillContentLine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .SkillBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+       
+    }
+
+    .SkillImg{
+        width: 150px;
+        margin-bottom: 5px;
+    }
+
+    .Certificate{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px 30px 30px 30px;
+    }
+
+  .CertificateContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .CertificateBox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+        
+    .Certificate_options{
+        border: 5px solid #0e4776;
+    }
+
+    .CertificateImg{
+        width: 100%;
+        height: 100%;
+    }
+
+    .CertificateName{
+        font-size: 12px;
+        color: #c8c8c8;
+    }
+
+
+    .Footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 200px;
+        background-color: #1e1e1e;
+        padding-bottom: 50px;
+    }
+
+    .FooterTitle{
+        font-size: 20px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    .FooterIcons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .FooterIcon{
+        margin-right: 10px;
+        width: 30px;
+    }
 }
 

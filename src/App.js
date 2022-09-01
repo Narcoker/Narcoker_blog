@@ -21,22 +21,22 @@ function App() {
           <div className="ContainerNavbar">
             <Navbar>
               <Container fluid>
-                <Navbar.Brand as={NavLink} to="/"><span className="FontNotoSans ColorWhite">
-                  <img src={logo} alt="logo_white.png" width="20px" height="24px" />
+                <Navbar.Brand as={NavLink} to="/"><span className="Narcoker">
+                  <img className="logo" src={logo} alt="logo_white.png" />
                   &nbsp;Narcoker</span></Navbar.Brand>
                 <Nav className="me-auto">
-                  <Nav.Link as={NavLink} to="/"><span className="NavText">Intro</span></Nav.Link>
+                  <Nav.Link as={NavLink} to="/"><span className="NavText">Home</span></Nav.Link>
                   <Nav.Link as={NavLink} to="/project"><span className="NavText">Project</span></Nav.Link>
                   <span style={{ padding: "8px" }}><a href='https://velog.io/@narcoker' className="NavText" target='_blank' rel="noreferrer">Velog</a></span>
+                  <span style={{ padding: "8px" }}><a href='https://github.com/Narcoker' className="NavText" target='_blank' rel="noreferrer">Github</a></span>
+
                 </Nav>
               </Container>
             </Navbar>
           </div>
           :
           null
-
       }
-
 
       <div className="ContainerContent">
         <Routes>
@@ -47,7 +47,7 @@ function App() {
         </Routes>
       </div>
 
-      <div className="Container-footer" />
+
 
     </div>
   );

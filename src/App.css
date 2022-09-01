@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
 
 .App {
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 p{
   margin: 0;  
 }
-
-
 
 .ContainerNavbar{
   background-color: #1e1e1e;
@@ -27,34 +26,41 @@ p{
   color: white;
 }
 
+.logo{
+  width: 20px;
+  height: 25px;
+}
+
+.Narcoker{
+ color: white;
+ font-size: 20px;
+}
+
 .NavText{
- font-family: 'Noto Sans KR', sans-serif;
- color: white
+ color: white;
+ font-size: 1.0vw;
 }
 
 .NavText:hover{
-  font-size: 18px;
+  font-size: 1.1vw;
   transform: translateY(50px);
   transition: 0.5s;
 }
 
 /*  Common font */
 .BigText{
-   font-family: 'Noto Sans KR', sans-serif;
     color: black;
     /* color: white; */
     font-size: 35px;
 }
 
 .MiddleText{
-   font-family: 'Noto Sans KR', sans-serif;
     color: black;
     /* color: white; */
     font-size: 20px;
 }
 
 .SmallText{
-   font-family: 'Noto Sans KR', sans-serif;
     color: black;
     /* color: white; */
     font-size: 16px;
@@ -68,3 +74,4 @@ p{
     top: 0px;
   }
 }
+
