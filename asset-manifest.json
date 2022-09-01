@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Narcoker_blog/static/css/main.e7622ef1.css",
-    "main.js": "/Narcoker_blog/static/js/main.ce0887fc.js",
-    "static/js/787.87df8b8d.chunk.js": "/Narcoker_blog/static/js/787.87df8b8d.chunk.js",
-    "static/media/profile.jpg": "/Narcoker_blog/static/media/profile.6e9443d12cd69d72dfb3.jpg",
-    "static/media/instagram.png": "/Narcoker_blog/static/media/instagram.29524d3f5c7d35435d7d.png",
-    "static/media/logo_black.png": "/Narcoker_blog/static/media/logo_black.072fb0334171bbc11f4f.png",
-    "static/media/email.png": "/Narcoker_blog/static/media/email.f18eddca775c8cab09fa.png",
-    "static/media/about_me2.png": "/Narcoker_blog/static/media/about_me2.02502b7c9bce4e308800.png",
-    "static/media/logo_white.png": "/Narcoker_blog/static/media/logo_white.d7fec6c30f67673a1dcb.png",
-    "static/media/react.png": "/Narcoker_blog/static/media/react.283bf42c605cfc49cf49.png",
-    "static/media/css.png": "/Narcoker_blog/static/media/css.c0016e0fae24fc2f1530.png",
-    "static/media/html.png": "/Narcoker_blog/static/media/html.403202fbfa3c35aa867c.png",
-    "static/media/javascript.png": "/Narcoker_blog/static/media/javascript.cddee75c4ca16df7df54.png",
-    "static/media/github_black.png": "/Narcoker_blog/static/media/github_black.acb776ea3354d0ca6f7c.png",
-    "static/media/certificate.png": "/Narcoker_blog/static/media/certificate.decd668572995b7ecce7.png",
-    "static/media/notion.png": "/Narcoker_blog/static/media/notion.f00a959a97a258c5505b.png",
-    "index.html": "/Narcoker_blog/index.html",
-    "main.e7622ef1.css.map": "/Narcoker_blog/static/css/main.e7622ef1.css.map",
-    "main.ce0887fc.js.map": "/Narcoker_blog/static/js/main.ce0887fc.js.map",
-    "787.87df8b8d.chunk.js.map": "/Narcoker_blog/static/js/787.87df8b8d.chunk.js.map"
+    "main.css": "/static/css/main.e7622ef1.css",
+    "main.js": "/static/js/main.fdc448c1.js",
+    "static/js/787.87df8b8d.chunk.js": "/static/js/787.87df8b8d.chunk.js",
+    "static/media/profile.jpg": "/static/media/profile.6e9443d12cd69d72dfb3.jpg",
+    "static/media/instagram.png": "/static/media/instagram.29524d3f5c7d35435d7d.png",
+    "static/media/logo_black.png": "/static/media/logo_black.072fb0334171bbc11f4f.png",
+    "static/media/email.png": "/static/media/email.f18eddca775c8cab09fa.png",
+    "static/media/about_me2.png": "/static/media/about_me2.02502b7c9bce4e308800.png",
+    "static/media/logo_white.png": "/static/media/logo_white.d7fec6c30f67673a1dcb.png",
+    "static/media/react.png": "/static/media/react.283bf42c605cfc49cf49.png",
+    "static/media/css.png": "/static/media/css.c0016e0fae24fc2f1530.png",
+    "static/media/html.png": "/static/media/html.403202fbfa3c35aa867c.png",
+    "static/media/javascript.png": "/static/media/javascript.cddee75c4ca16df7df54.png",
+    "static/media/github_black.png": "/static/media/github_black.acb776ea3354d0ca6f7c.png",
+    "static/media/certificate.png": "/static/media/certificate.decd668572995b7ecce7.png",
+    "static/media/notion.png": "/static/media/notion.f00a959a97a258c5505b.png",
+    "index.html": "/index.html",
+    "main.e7622ef1.css.map": "/static/css/main.e7622ef1.css.map",
+    "main.fdc448c1.js.map": "/static/js/main.fdc448c1.js.map",
+    "787.87df8b8d.chunk.js.map": "/static/js/787.87df8b8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7622ef1.css",
-    "static/js/main.ce0887fc.js"
+    "static/js/main.fdc448c1.js"
   ]
 }
