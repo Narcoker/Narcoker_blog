@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Narcoker_blog/static/css/main.4338cb38.css",
+    "main.css": "/Narcoker_blog/static/css/main.e7622ef1.css",
     "main.js": "/Narcoker_blog/static/js/main.ce0887fc.js",
     "static/js/787.87df8b8d.chunk.js": "/Narcoker_blog/static/js/787.87df8b8d.chunk.js",
     "static/media/profile.jpg": "/Narcoker_blog/static/media/profile.6e9443d12cd69d72dfb3.jpg",
@@ -17,12 +17,12 @@
     "static/media/certificate.png": "/Narcoker_blog/static/media/certificate.decd668572995b7ecce7.png",
     "static/media/notion.png": "/Narcoker_blog/static/media/notion.f00a959a97a258c5505b.png",
     "index.html": "/Narcoker_blog/index.html",
-    "main.4338cb38.css.map": "/Narcoker_blog/static/css/main.4338cb38.css.map",
+    "main.e7622ef1.css.map": "/Narcoker_blog/static/css/main.e7622ef1.css.map",
     "main.ce0887fc.js.map": "/Narcoker_blog/static/js/main.ce0887fc.js.map",
     "787.87df8b8d.chunk.js.map": "/Narcoker_blog/static/js/787.87df8b8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4338cb38.css",
+    "static/css/main.e7622ef1.css",
     "static/js/main.ce0887fc.js"
   ]
 }
