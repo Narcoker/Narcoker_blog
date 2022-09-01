@@ -20,7 +20,7 @@ function IntroInit(props) {
     }, [])
 
     return (
-        <div className={`IntroInit`}>
+        <div className='IntroInit'>
             <div className='ContainerHello'>
 
                 <p className={`BigText FontNotoSans`}>안녕하세요</p>

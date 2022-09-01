@@ -43,7 +43,7 @@ function App() {
         <Routes>
           {/* <Route exact path="/" element={<Intro setNavbarState={setNavbarState} />} /> */}
           <Route exact path="/Narcoker_blog" element={<Intro setNavbarState={setNavbarState} />} />
-          <Route path="/project" element={<Project />} />
+          <Route path="/project" element={<Project setNavbarState={setNavbarState} />} />
           {/* <Route path="/:id" element={<p>찾을 수 없는 페이지 입니다.</p>} /> */}
 
         </Routes>
